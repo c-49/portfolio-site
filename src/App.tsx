@@ -258,7 +258,7 @@ const ResponsivePortfolio = () => {
                 <h3 className="text-xl font-semibold mb-4">PadSquad Initiative</h3>
                 <p className="text-gray-300 mb-4">Led successful $5.7M project implementation</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {['React', 'Vue.js', 'Node.js', 'API Integration'].map((tech) => (
+                  {['Vue.js', 'Node.js', 'API Integration'].map((tech) => (
                     <span key={tech} className="px-3 py-1 bg-gray-700 text-blue-400 rounded-full text-sm">
                       {tech}
                     </span>
@@ -267,6 +267,43 @@ const ResponsivePortfolio = () => {
                 <div className="flex space-x-4">
                   <a href="https://padsquad.com/demo-gallery" className="text-blue-400 hover:text-blue-300 transition-colors">
                     Demo →
+                  </a>
+                </div>
+              </div>
+              <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Porfolio Site</h3>
+                <p className="text-gray-300 mb-4">Source code to my portfolio, using React, Tailwind CSS, Typescript, and Vite</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {['React', 'TailWind CSS', 'Typescript', 'Vite'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-gray-700 text-blue-400 rounded-full text-sm">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://github.com/c-49/portfolio-site" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    Github →
+                  </a>
+                </div>
+              </div>
+              <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Text Tone Analyzer</h3>
+                <p className="text-gray-300 mb-4">Ai project that analyzes input text to see if it's positive or negative</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {['Vite', 'Vue', 'Python'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-gray-700 text-blue-400 rounded-full text-sm">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://text-tone-analyzer.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    Demo →
+                  </a>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://github.com/c-49/text-tone-analyzer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    Github →
                   </a>
                 </div>
               </div>
