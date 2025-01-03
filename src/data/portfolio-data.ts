@@ -133,7 +133,25 @@ export const portfolioData: PortfolioData = {
         technologies: ["Vue", "Python", "Machine Learning"],
         githubUrl: "https://github.com/c-49/text-tone-analyzer",
         demoUrl: "https://text-tone-analyzer.vercel.app/"
-      }
+      },
+      {
+        title: "Ai Object Detector",
+        description: "WIP* Ai object detection app, specifically made for the visually impaired. It tries to guess what an item is.",
+        technologies: ["JavasScript", "TensorFlow", "Vite", "Ai", "Machine Learning"],
+        githubUrl: "https://github.com/c-49/ai-object-identifier"
+      },
+      {
+        title: "Harvard CS50 Assignments Portfolio",
+        description: "This repository contains my completed assignments from Harvard's CS50: Introduction to Computer Science course. Each project demonstrates different programming concepts and problem-solving skills developed throughout the course.",
+        technologies: ["JavasScript", "C", "Python", "Scratch", "SQL", ".NET", "HTML", "CSS"],
+        githubUrl: "https://github.com/c-49/cs50"
+      },
+      {
+        title: "Ai Therapist App",
+        description: "WIP* This AI Therapist app leverages ChatGPT for personalized mental health support, built with Vite for fast development, Vue3 for a reactive UI, and Quasar2 for a responsive, cross-platform experience.",
+        technologies: ["JavasScript", "Vue", "NLP", "GPT", "LLM", "Vite"],
+        githubUrl: "https://github.com/c-49/ai-therapist-app"
+      },
     ],
     social: [
       {
