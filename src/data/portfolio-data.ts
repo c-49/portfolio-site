@@ -12,7 +12,7 @@ export const portfolioData: PortfolioData = {
       { id: "contact", label: "Contact" }
     ],
     about: {
-      name: "Chris Reith",
+      name: "Natalie Privado",
       role: "Senior Front End Developer",
       description: "Dynamic Senior Front End Developer with proven expertise in developing enterprise-level web applications for industry leaders including Google, Amazon, MotorTrend, and NBC Universal. Demonstrated success in leading high-value projects, including the $5.7M PadSquad initiative.",
       imageUrl: profile

@@ -103,7 +103,7 @@ const About = ({ data }) => (
   <Section id="about" className="py-32 px-8">
     <div className="flex flex-col md:flex-row items-center md:space-x-12">
       <div className="w-[200px] h-[200px] mb-8 md:mb-0">
-        <img src={data.imageUrl} alt={data.name} className="w-full h-full object-contain" />
+        {/* <img src={data.imageUrl} alt={data.name} className="w-full h-full object-contain" /> */}
       </div>
       <div>
         <h1 className="text-4xl font-bold text-center md:text-left">{data.name}</h1>
